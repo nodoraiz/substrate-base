@@ -4,11 +4,11 @@ import com.nodoraiz.substratehooksbase.plugins.ExamplePlugin;
 
 public class PluginManager {
 
-    public static final boolean DEBUG = false;
+    public static final boolean DEBUG = true;
 
     static void initialize(){
 
-//        new ExamplePlugin().apply();
+        new ExamplePlugin().apply();
 
     }
 
